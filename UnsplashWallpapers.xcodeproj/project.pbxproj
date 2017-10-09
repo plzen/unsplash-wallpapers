@@ -13,6 +13,8 @@
 		8ED853471F8C25B9007C375D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ED853451F8C25B9007C375D /* Main.storyboard */; };
 		8ED853531F8C25BA007C375D /* UnsplashWallpapersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED853521F8C25BA007C375D /* UnsplashWallpapersTests.swift */; };
 		8ED8535E1F8C25BA007C375D /* UnsplashWallpapersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED8535D1F8C25BA007C375D /* UnsplashWallpapersUITests.swift */; };
+		8ED8536D1F8C27F1007C375D /* NSStoryboard+Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED8536C1F8C27F1007C375D /* NSStoryboard+Identifier.swift */; };
+		8ED8536F1F8C2820007C375D /* NSObject+NameOfClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED8536E1F8C2820007C375D /* NSObject+NameOfClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		8ED853591F8C25BA007C375D /* UnsplashWallpapersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsplashWallpapersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED8535D1F8C25BA007C375D /* UnsplashWallpapersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashWallpapersUITests.swift; sourceTree = "<group>"; };
 		8ED8535F1F8C25BA007C375D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ED8536C1F8C27F1007C375D /* NSStoryboard+Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSStoryboard+Identifier.swift"; sourceTree = "<group>"; };
+		8ED8536E1F8C2820007C375D /* NSObject+NameOfClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+NameOfClass.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 		8ED8533E1F8C25B9007C375D /* UnsplashWallpapers */ = {
 			isa = PBXGroup;
 			children = (
+				8ED8536B1F8C27BD007C375D /* Extensions */,
 				8ED8533F1F8C25B9007C375D /* AppDelegate.swift */,
 				8ED853411F8C25B9007C375D /* ViewController.swift */,
 				8ED853431F8C25B9007C375D /* Assets.xcassets */,
@@ -122,6 +127,15 @@
 				8ED8535F1F8C25BA007C375D /* Info.plist */,
 			);
 			path = UnsplashWallpapersUITests;
+			sourceTree = "<group>";
+		};
+		8ED8536B1F8C27BD007C375D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8ED8536C1F8C27F1007C375D /* NSStoryboard+Identifier.swift */,
+				8ED8536E1F8C2820007C375D /* NSObject+NameOfClass.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ED8536F1F8C2820007C375D /* NSObject+NameOfClass.swift in Sources */,
+				8ED8536D1F8C27F1007C375D /* NSStoryboard+Identifier.swift in Sources */,
 				8ED853421F8C25B9007C375D /* ViewController.swift in Sources */,
 				8ED853401F8C25B9007C375D /* AppDelegate.swift in Sources */,
 			);
@@ -423,7 +439,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mvoronin.UnsplashWallpapers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -439,7 +455,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mvoronin.UnsplashWallpapers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
