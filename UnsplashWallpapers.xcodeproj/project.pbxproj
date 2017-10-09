@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28673BE2FF72A1DA90B2A9CF /* Pods_UnsplashWallpapersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EC29E3BF66CBE9604D5540 /* Pods_UnsplashWallpapersUITests.framework */; };
+		3BCD354F3FDB6B5468C8B6D3 /* Pods_UnsplashWallpapersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD28FFE82FB3745838730E8 /* Pods_UnsplashWallpapersTests.framework */; };
+		62DC9D69AB174B61A933730F /* Pods_UnsplashWallpapers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB75C15554B90EA6BA62B49 /* Pods_UnsplashWallpapers.framework */; };
+		8E132D2F1F8E666C006B47BF /* DesktopPictureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E132D2E1F8E666C006B47BF /* DesktopPictureService.swift */; };
+		8E132D311F8EC92B006B47BF /* Date+TimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E132D301F8EC92B006B47BF /* Date+TimeAgo.swift */; };
+		8E331D481F8CFFD900FAD7C6 /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E331D471F8CFFD900FAD7C6 /* PopoverViewController.swift */; };
+		8E331D4D1F8DFC7200FAD7C6 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E331D4C1F8DFC7200FAD7C6 /* APIClient.swift */; };
+		8E331D531F8E034400FAD7C6 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E331D521F8E034400FAD7C6 /* Photo.swift */; };
+		8E331D561F8E1D9100FAD7C6 /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E331D551F8E1D9100FAD7C6 /* ImageFetcher.swift */; };
+		8E331D581F8E1E5000FAD7C6 /* UserDefaultsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E331D571F8E1E5000FAD7C6 /* UserDefaultsService.swift */; };
+		8E331D5A1F8E1F7700FAD7C6 /* FetchInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E331D591F8E1F7700FAD7C6 /* FetchInterval.swift */; };
 		8ED853401F8C25B9007C375D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED8533F1F8C25B9007C375D /* AppDelegate.swift */; };
-		8ED853421F8C25B9007C375D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED853411F8C25B9007C375D /* ViewController.swift */; };
 		8ED853441F8C25B9007C375D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ED853431F8C25B9007C375D /* Assets.xcassets */; };
 		8ED853471F8C25B9007C375D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ED853451F8C25B9007C375D /* Main.storyboard */; };
 		8ED853531F8C25BA007C375D /* UnsplashWallpapersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED853521F8C25BA007C375D /* UnsplashWallpapersTests.swift */; };
 		8ED8535E1F8C25BA007C375D /* UnsplashWallpapersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED8535D1F8C25BA007C375D /* UnsplashWallpapersUITests.swift */; };
+		8ED8536D1F8C27F1007C375D /* NSStoryboard+Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED8536C1F8C27F1007C375D /* NSStoryboard+Identifier.swift */; };
+		8ED8536F1F8C2820007C375D /* NSObject+NameOfClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED8536E1F8C2820007C375D /* NSObject+NameOfClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +45,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E6CDF92F17C0073DB417FE5 /* Pods-UnsplashWallpapersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashWallpapersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnsplashWallpapersTests/Pods-UnsplashWallpapersTests.release.xcconfig"; sourceTree = "<group>"; };
+		7CD28FFE82FB3745838730E8 /* Pods_UnsplashWallpapersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnsplashWallpapersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E132D2E1F8E666C006B47BF /* DesktopPictureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopPictureService.swift; sourceTree = "<group>"; };
+		8E132D301F8EC92B006B47BF /* Date+TimeAgo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+TimeAgo.swift"; sourceTree = "<group>"; };
+		8E331D471F8CFFD900FAD7C6 /* PopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
+		8E331D4C1F8DFC7200FAD7C6 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		8E331D521F8E034400FAD7C6 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		8E331D551F8E1D9100FAD7C6 /* ImageFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFetcher.swift; sourceTree = "<group>"; };
+		8E331D571F8E1E5000FAD7C6 /* UserDefaultsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsService.swift; sourceTree = "<group>"; };
+		8E331D591F8E1F7700FAD7C6 /* FetchInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchInterval.swift; sourceTree = "<group>"; };
 		8ED8533C1F8C25B9007C375D /* UnsplashWallpapers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnsplashWallpapers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED8533F1F8C25B9007C375D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8ED853411F8C25B9007C375D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8ED853431F8C25B9007C375D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8ED853461F8C25B9007C375D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8ED853481F8C25B9007C375D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +67,15 @@
 		8ED853591F8C25BA007C375D /* UnsplashWallpapersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsplashWallpapersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED8535D1F8C25BA007C375D /* UnsplashWallpapersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashWallpapersUITests.swift; sourceTree = "<group>"; };
 		8ED8535F1F8C25BA007C375D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ED8536C1F8C27F1007C375D /* NSStoryboard+Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSStoryboard+Identifier.swift"; sourceTree = "<group>"; };
+		8ED8536E1F8C2820007C375D /* NSObject+NameOfClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+NameOfClass.swift"; sourceTree = "<group>"; };
+		94245888B7AD23E63FCC2764 /* Pods-UnsplashWallpapersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashWallpapersUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnsplashWallpapersUITests/Pods-UnsplashWallpapersUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BBA176E90D5D299AF5E4D97D /* Pods-UnsplashWallpapersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashWallpapersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnsplashWallpapersTests/Pods-UnsplashWallpapersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C99EF85C6DB33A4B30C00923 /* Pods-UnsplashWallpapers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashWallpapers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnsplashWallpapers/Pods-UnsplashWallpapers.debug.xcconfig"; sourceTree = "<group>"; };
+		CBB75C15554B90EA6BA62B49 /* Pods_UnsplashWallpapers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnsplashWallpapers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1708E3AEA6F8473751BB02 /* Pods-UnsplashWallpapersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashWallpapersUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnsplashWallpapersUITests/Pods-UnsplashWallpapersUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F824CF74247190C1EE0D51CF /* Pods-UnsplashWallpapers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashWallpapers.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnsplashWallpapers/Pods-UnsplashWallpapers.release.xcconfig"; sourceTree = "<group>"; };
+		F8EC29E3BF66CBE9604D5540 /* Pods_UnsplashWallpapersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnsplashWallpapersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62DC9D69AB174B61A933730F /* Pods_UnsplashWallpapers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BCD354F3FDB6B5468C8B6D3 /* Pods_UnsplashWallpapersTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,12 +99,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28673BE2FF72A1DA90B2A9CF /* Pods_UnsplashWallpapersUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D04AFA5FC9578972051D49D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C99EF85C6DB33A4B30C00923 /* Pods-UnsplashWallpapers.debug.xcconfig */,
+				F824CF74247190C1EE0D51CF /* Pods-UnsplashWallpapers.release.xcconfig */,
+				BBA176E90D5D299AF5E4D97D /* Pods-UnsplashWallpapersTests.debug.xcconfig */,
+				1E6CDF92F17C0073DB417FE5 /* Pods-UnsplashWallpapersTests.release.xcconfig */,
+				CC1708E3AEA6F8473751BB02 /* Pods-UnsplashWallpapersUITests.debug.xcconfig */,
+				94245888B7AD23E63FCC2764 /* Pods-UnsplashWallpapersUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E331D461F8CFDCA00FAD7C6 /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				8E331D471F8CFFD900FAD7C6 /* PopoverViewController.swift */,
+			);
+			path = Popover;
+			sourceTree = "<group>";
+		};
+		8E331D491F8D241300FAD7C6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8E331D4C1F8DFC7200FAD7C6 /* APIClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8E331D511F8E033400FAD7C6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E331D591F8E1F7700FAD7C6 /* FetchInterval.swift */,
+				8E331D521F8E034400FAD7C6 /* Photo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8E331D541F8E1D2A00FAD7C6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8E132D2E1F8E666C006B47BF /* DesktopPictureService.swift */,
+				8E331D551F8E1D9100FAD7C6 /* ImageFetcher.swift */,
+				8E331D571F8E1E5000FAD7C6 /* UserDefaultsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		8ED853331F8C25B9007C375D = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +161,8 @@
 				8ED853511F8C25BA007C375D /* UnsplashWallpapersTests */,
 				8ED8535C1F8C25BA007C375D /* UnsplashWallpapersUITests */,
 				8ED8533D1F8C25B9007C375D /* Products */,
+				0D04AFA5FC9578972051D49D /* Pods */,
+				C0DF737A1986DD8305BD8917 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,8 +179,12 @@
 		8ED8533E1F8C25B9007C375D /* UnsplashWallpapers */ = {
 			isa = PBXGroup;
 			children = (
+				8ED8536B1F8C27BD007C375D /* Extensions */,
+				8E331D511F8E033400FAD7C6 /* Models */,
+				8E331D491F8D241300FAD7C6 /* Network */,
+				8E331D461F8CFDCA00FAD7C6 /* Popover */,
+				8E331D541F8E1D2A00FAD7C6 /* Services */,
 				8ED8533F1F8C25B9007C375D /* AppDelegate.swift */,
-				8ED853411F8C25B9007C375D /* ViewController.swift */,
 				8ED853431F8C25B9007C375D /* Assets.xcassets */,
 				8ED853451F8C25B9007C375D /* Main.storyboard */,
 				8ED853481F8C25B9007C375D /* Info.plist */,
@@ -124,6 +211,26 @@
 			path = UnsplashWallpapersUITests;
 			sourceTree = "<group>";
 		};
+		8ED8536B1F8C27BD007C375D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8E132D301F8EC92B006B47BF /* Date+TimeAgo.swift */,
+				8ED8536C1F8C27F1007C375D /* NSStoryboard+Identifier.swift */,
+				8ED8536E1F8C2820007C375D /* NSObject+NameOfClass.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C0DF737A1986DD8305BD8917 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBB75C15554B90EA6BA62B49 /* Pods_UnsplashWallpapers.framework */,
+				7CD28FFE82FB3745838730E8 /* Pods_UnsplashWallpapersTests.framework */,
+				F8EC29E3BF66CBE9604D5540 /* Pods_UnsplashWallpapersUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8ED853621F8C25BA007C375D /* Build configuration list for PBXNativeTarget "UnsplashWallpapers" */;
 			buildPhases = (
+				8ACA9E501991A8A7FC12E763 /* [CP] Check Pods Manifest.lock */,
 				8ED853381F8C25B9007C375D /* Sources */,
 				8ED853391F8C25B9007C375D /* Frameworks */,
 				8ED8533A1F8C25B9007C375D /* Resources */,
+				0FE174AB0045549E97E44F11 /* [CP] Embed Pods Frameworks */,
+				E67C4DB5CBEA936218B4688C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8ED853651F8C25BA007C375D /* Build configuration list for PBXNativeTarget "UnsplashWallpapersTests" */;
 			buildPhases = (
+				F353FC86D7203DFAF2536005 /* [CP] Check Pods Manifest.lock */,
 				8ED8534A1F8C25BA007C375D /* Sources */,
 				8ED8534B1F8C25BA007C375D /* Frameworks */,
 				8ED8534C1F8C25BA007C375D /* Resources */,
+				3DE4B9DDCF8776726670E2AB /* [CP] Embed Pods Frameworks */,
+				53CA0D133EE1C0991CB65716 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -166,9 +279,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8ED853681F8C25BA007C375D /* Build configuration list for PBXNativeTarget "UnsplashWallpapersUITests" */;
 			buildPhases = (
+				EFDE5D58FFE8805730595D5B /* [CP] Check Pods Manifest.lock */,
 				8ED853551F8C25BA007C375D /* Sources */,
 				8ED853561F8C25BA007C375D /* Frameworks */,
 				8ED853571F8C25BA007C375D /* Resources */,
+				A81A4EC0D57CB5BFB9CEF98D /* [CP] Embed Pods Frameworks */,
+				21F318600980F59E9630AE1B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,13 +368,172 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FE174AB0045549E97E44F11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UnsplashWallpapers/Pods-UnsplashWallpapers-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnsplashWallpapers/Pods-UnsplashWallpapers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21F318600980F59E9630AE1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnsplashWallpapersUITests/Pods-UnsplashWallpapersUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DE4B9DDCF8776726670E2AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnsplashWallpapersTests/Pods-UnsplashWallpapersTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53CA0D133EE1C0991CB65716 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnsplashWallpapersTests/Pods-UnsplashWallpapersTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ACA9E501991A8A7FC12E763 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnsplashWallpapers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A81A4EC0D57CB5BFB9CEF98D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnsplashWallpapersUITests/Pods-UnsplashWallpapersUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E67C4DB5CBEA936218B4688C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnsplashWallpapers/Pods-UnsplashWallpapers-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFDE5D58FFE8805730595D5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnsplashWallpapersUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F353FC86D7203DFAF2536005 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnsplashWallpapersTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8ED853381F8C25B9007C375D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ED853421F8C25B9007C375D /* ViewController.swift in Sources */,
+				8E331D531F8E034400FAD7C6 /* Photo.swift in Sources */,
+				8E331D561F8E1D9100FAD7C6 /* ImageFetcher.swift in Sources */,
+				8ED8536F1F8C2820007C375D /* NSObject+NameOfClass.swift in Sources */,
+				8E132D2F1F8E666C006B47BF /* DesktopPictureService.swift in Sources */,
+				8ED8536D1F8C27F1007C375D /* NSStoryboard+Identifier.swift in Sources */,
+				8E331D581F8E1E5000FAD7C6 /* UserDefaultsService.swift in Sources */,
+				8E331D481F8CFFD900FAD7C6 /* PopoverViewController.swift in Sources */,
 				8ED853401F8C25B9007C375D /* AppDelegate.swift in Sources */,
+				8E331D5A1F8E1F7700FAD7C6 /* FetchInterval.swift in Sources */,
+				8E132D311F8EC92B006B47BF /* Date+TimeAgo.swift in Sources */,
+				8E331D4D1F8DFC7200FAD7C6 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +688,7 @@
 		};
 		8ED853631F8C25BA007C375D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C99EF85C6DB33A4B30C00923 /* Pods-UnsplashWallpapers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = UnsplashWallpapers/UnsplashWallpapers.entitlements;
@@ -423,12 +699,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mvoronin.UnsplashWallpapers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		8ED853641F8C25BA007C375D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F824CF74247190C1EE0D51CF /* Pods-UnsplashWallpapers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = UnsplashWallpapers/UnsplashWallpapers.entitlements;
@@ -439,12 +716,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mvoronin.UnsplashWallpapers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		8ED853661F8C25BA007C375D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBA176E90D5D299AF5E4D97D /* Pods-UnsplashWallpapersTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +740,7 @@
 		};
 		8ED853671F8C25BA007C375D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E6CDF92F17C0073DB417FE5 /* Pods-UnsplashWallpapersTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -479,6 +758,7 @@
 		};
 		8ED853691F8C25BA007C375D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC1708E3AEA6F8473751BB02 /* Pods-UnsplashWallpapersUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -495,6 +775,7 @@
 		};
 		8ED8536A1F8C25BA007C375D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94245888B7AD23E63FCC2764 /* Pods-UnsplashWallpapersUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
